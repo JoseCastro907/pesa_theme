@@ -1,0 +1,24 @@
+@import url(colors.css);
+
+.card-body{
+    width: 210px;
+    min-height: 250px;
+    /* max-height: 210px; */
+}
+
+.card-title{
+    font-weight: 600;
+    color: var(--color--acento-background);
+    font-size: 1.5rem;
+}
+
+
+
+.code-img{
+    width: 100%;    
+    max-width: 150px;
+    margin-inline-start: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}

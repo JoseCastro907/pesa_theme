@@ -1,0 +1,45 @@
+@import url(colors.css);
+
+.navbar{
+    background-color: var(--color-buttons-light);
+    height: 92px;
+
+}
+
+.navbar-style-list{
+    font-size: 2rem;
+    font-weight: 600;
+    list-style: none;
+    padding-inline-start: 0 !important;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem; 
+    width: 100%;
+    justify-content: space-between;
+}
+
+    
+.navbar-top-style-list{
+    width: 50%;
+}
+    
+
+    .navbar-top-style-list a{
+        color: var(--color--acento-guias);
+    }
+
+
+
+.containerpadding {
+    height: 96px;
+    width: 100%; }
+
+
+.brand a{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color--acento-guias);
+}
+
+
+
