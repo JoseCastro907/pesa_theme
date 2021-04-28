@@ -1,5 +1,7 @@
 @import url(colors.css);
 
+
+
 .navbar{
     background-color: var(--color-buttons-light);
     height: 92px;
@@ -7,7 +9,8 @@
 }
 
 .navbar-style-list{
-    font-size: 2rem;
+    display: flex;
+    font-size: 1.2rem;
     font-weight: 600;
     list-style: none;
     padding-inline-start: 0 !important;
@@ -39,6 +42,14 @@
     font-weight: 700;
     font-size: 2rem;
     color: var(--color--acento-guias);
+}
+
+
+
+
+#bdNavbar{
+    font-size: 1.4rem;
+
 }
 
 
