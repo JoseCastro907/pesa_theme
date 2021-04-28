@@ -9,20 +9,47 @@
 </head>
 
 <body>
+
+ <!--header NAV menu -->
+ <header>
+    <nav class="navbar row fixed-top">
+      <div class="container-fluid col-md-10">
+          <div class="brand">
+            <h3><a href="index.html">PESA Marketing Digital</a></h3>
+          </div>
+          <div class="container-button">
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#fff" class="bi bi-list" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+            </button>
+          </div>
+
+          <?php
+                            wp_nav_menu( array(
+                              'theme_location'    => 'primary',
+                              'depth'             => 1,
+                              'container'         => 'div',
+                              'container_class'   => 'navbar-top-style-list',
+                              'container_id'      => 'navtop"',
+                              'menu_class'        => 'navbar-style-list',
+                              'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                              'walker'            => new WP_Bootstrap_Navwalker()
+                          ) );
+                      ?>
+                <!-- <?php
+                                wp_nav_menu( array(
+                                    'theme_location'    => 'primary',
+                                    'depth'             => 1,
+                                    'container'         => 'div',
+                                    'container_class'   => 'navbar-collapse collapse collapsed',
+                                    'container_id'      => 'bdNavbar',
+                                    'menu_class'        => 'navbar-nav mr-auto',
+                                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                                    'walker'            => new WP_Bootstrap_Navwalker()
+                                ) );
+                            ?> -->
+            
+      </div>
+    </nav>
+  </header>
    <!-- container -->
     <div class="container-fluid principal">
-                        
-                        <?php
-                            wp_nav_menu( array(
-                                'theme_location'    => 'primary',
-                                'depth'             => 1,
-                                'container'         => 'div',
-                                'container_class'   => 'collapse navbar-collapse',
-                                'container_id'      => 'bs-example-navbar-collapse-1',
-                                'menu_class'        => 'navbar-nav mr-auto',
-                                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                                'walker'            => new WP_Bootstrap_Navwalker()
-                            ) );
-                        ?>
-                        
-                
