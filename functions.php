@@ -7,9 +7,9 @@
 
         wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css');
 
-        wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.2.1.slim.min.js');
+        wp_enqueue_script('jquery', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js');
 
-        wp_enqueue_script( 'js_boostrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js');
+        wp_enqueue_script( 'js_boostrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js');
 
 
     }

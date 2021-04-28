@@ -16,7 +16,7 @@
                             <div class="align-middle h-100 mb-3">
                                 <h1>Un buen negocio incluye un<br>
                                     buen producto digital.</h1>
-                                <button class="btn btn-light mt-4"> Saber mas</button>
+                                <button class="btn btn-light mt-4" style="font-weight: 600"> Saber mas</button>
                             </div>
                         </div>
                     </div>
@@ -42,12 +42,15 @@
 
         <div class="col-md-10">
             <h2 class="carouselTitle pt-2 pb-3">Proyectos Recientes</h2>
-            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                </ol>
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="img-fluid w-100"
@@ -65,15 +68,16 @@
                             alt="Third slide">
                     </div>
 
-                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" style="color: black" href="#carouselIndicators" role="button"
-                        data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
 
@@ -227,7 +231,7 @@
                 Productos Profesionales
             </h3>
             <div class="boton-contacto pt-5 pb-5 text-center">
-                <button class="btn btn-sm pt-2 pb-2" type="button">Saber mas</button>
+                <button class="btn btn-light pt-2 pb-2 " style="font-weight: 600" type="button">Saber mas</button>
             </div>
         </div>
     </div>
@@ -261,7 +265,8 @@
                 <div class="contacta">
                     <h3 class="cantact2 pt-2 pb-1 align_left">Contacta con nosotros</h3>
                 </div>
-                <p class="comment-contact pb-4">envíanos tus requerimientos a nuestro correo describiendo a<br>detalle tu proyecto a
+                <p class="comment-contact pb-4">envíanos tus requerimientos a nuestro correo describiendo a<br>detalle
+                    tu proyecto a
                     desarrollar o agenda una llamada con<br>nosotros.
                 </p>
             </div>
@@ -270,14 +275,15 @@
                 <div class="Recibe">
                     <h3 class="recibe2 pt-2 pb-1 align_left">Recibe tu cotización</h3>
                 </div>
-                <p class="comment-receive pb-4">te enviaremos una cotización a tu correo electronico<br>lo antes posible con
+                <p class="comment-receive pb-4">te enviaremos una cotización a tu correo electronico<br>lo antes posible
+                    con
                     caracteristicas, costos y tiempo<br>de desarrollo de tu proyecto.
                 </p>
             </div>
         </div>
     </div>
     <div class="boton-contacto pt-5 pb-5 text-center">
-        <button class="btn btn-sm pt-2 pb-2" type="button" id="get_in_touch">Ponte en contacto con nuestros
+        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Ponte en contacto con nuestros
             expertos</button>
     </div>
 </div>

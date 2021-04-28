@@ -39,42 +39,45 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --color--acento-dark-background: #17242A;
     --color--acento-guias: #2B7A78;
     --color-buttons-light: #DEF2F1;
-
     --font-barlow: Barlow;
 }
 
 body{
-    background: var(--coloraqua);
     font-family: var(--font-barlow), sans-serif;
+}
+.principal{
+    background: var(--color--acento-background);
 }
 
 /******* carusel *******/
+
 .carouselTitle{
     color: var(--colorwhite1);
     font-weight: bold;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
+  height: 90px;
+  width: 90px;
   background-size: 100%, 100%;
   background-image: none;
 }
 
-.carousel-control-next-icon:after
+.carousel-control-next:after
 {
   content: url("imgs/icons/right-arrow.png");
 }
-
-.carousel-control-prev-icon:after {
+.carousel-control-prev:after {
     content: url("imgs/icons/left-arrow.png");
-
+}
+.carousel-indicators [data-bs-target]{
+    background-color: gray;
 }
 .carousel-indicators .active{
     background-color: black;
 }
-.carousel-indicators li{
+.carousel-indicators button{
     background-color: gray;
 }
 /******* Banner frase *******/
@@ -130,12 +133,12 @@ body{
     font-weight: 600;
     padding-left: 25px;
     padding-right: 25px;
+    font-weight: 600;
     color: var(--coloraqua2);
 }
 /******* footer *******/
-.icon{
-    width: 28px;
-    height: 28px;
+.isotipo{
+   margin-right:10px;
 }
 .fraseBanner{
     background-color:var(--coloraqua2);

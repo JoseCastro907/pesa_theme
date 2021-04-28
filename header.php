@@ -10,7 +10,7 @@
 
 <body>
    <!-- container -->
-    <div class="container-fluid">
+    <div class="container-fluid principal">
                         
                         <?php
                             wp_nav_menu( array(
