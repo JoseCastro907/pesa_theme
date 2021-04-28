@@ -51,5 +51,4 @@
       </div>
     </nav>
   </header>
-   <!-- container -->
-    <div class="container-fluid principal">
+   

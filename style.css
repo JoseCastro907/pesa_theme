@@ -44,9 +44,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body{
     font-family: var(--font-barlow), sans-serif;
-}
-.principal{
-    background: var(--color--acento-background);
+    background-color: var(--color--acento-background)!important;
 }
 
 /******* carusel *******/
@@ -61,7 +59,7 @@ body{
   height: 90px;
   width: 90px;
   background-size: 100%, 100%;
-  background-image: none;
+  background-image: none!important;
 }
 
 .carousel-control-next:after
@@ -71,14 +69,11 @@ body{
 .carousel-control-prev:after {
     content: url("imgs/icons/left-arrow.png");
 }
-.carousel-indicators [data-bs-target]{
-    background-color: gray;
-}
 .carousel-indicators .active{
-    background-color: black;
+    background-color: black !important;
 }
 .carousel-indicators button{
-    background-color: gray;
+    background-color: gray !important;
 }
 /******* Banner frase *******/
 .banner-frase1{
