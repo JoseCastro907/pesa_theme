@@ -1,0 +1,207 @@
+/*
+Theme Name: PESA
+Theme URI: url donde se puede encontrar más detalles del tema
+Author: Nombre del autor(es) del tema
+Author URI: url del autor(es)
+Description: descripción sobre el tema
+Tags: palabras claves para encontrar el tema
+Version: 1.0
+Requires at least: 5.0 - versión de WP
+Tested up to: 5.4 - versión de WP
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+@import url(css/colors.css);
+@import url(css/header.css);
+@import url(css/queries.css);
+@import url(css/services.css);
+
+
+
+:root{
+
+    --color_background_white: #fff;
+    --coloraqua: #3AAFA9;
+    --coloraqua2:  #2B7A78;
+    --coloraquafuerte: #17252A;
+    --colorwhite2: #DEF2F1;
+    --colorwhite1: #FEFFFF;
+
+    --color_background_white: #FEFFFF;
+    --color--acento-background: #3AAFA9;
+    --color--acento-dark-background: #17242A;
+    --color--acento-guias: #2B7A78;
+    --color-buttons-light: #DEF2F1;
+    --font-barlow: Barlow;
+}
+
+body{
+    font-family: var(--font-barlow), sans-serif;
+    background-color: var(--color--acento-background)!important;
+}
+
+/******* carusel *******/
+
+.carouselTitle{
+    color: var(--colorwhite1);
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 90px;
+  width: 90px;
+  background-size: 100%, 100%;
+  background-image: none!important;
+}
+
+.carousel-control-next:after
+{
+  content: url("imgs/icons/right-arrow.png");
+}
+.carousel-control-prev:after {
+    content: url("imgs/icons/left-arrow.png");
+}
+.carousel-indicators .active{
+    background-color: black !important;
+}
+.carousel-indicators button{
+    background-color: gray !important;
+}
+/******* Banner frase *******/
+.banner-frase1{
+    font-weight: 600;
+     color: var(--colorwhite2);
+}
+.banner-frase2{
+    font-weight: 600;
+    color: var(--color--acento-dark-background);
+    font-size: 30px;
+}
+/******* frase *******/
+.fraseBanner{
+    margin-bottom: 25px;
+}
+.frase-1{
+    color: var(--colorwhite2);
+    font-size: 60px;
+    font-weight: 700;
+}
+.frase-2{
+    color: var(--coloraquafuerte);
+    font-weight: 700;
+}
+/******* contactanos *******/
+
+.cantact1{
+    border-style: solid;
+    border-width: 0 8px 0 0px;
+    border-color: var(--coloraqua2);
+    color: var(--colorwhite2);
+}
+.recibe1{
+    color: var(--colorwhite2);
+}
+
+.cantact2,.recibe2{
+    font-weight: 700;
+}
+.contacta{
+    padding: 45px 50px 5px 45px;
+}
+.Recibe{
+    padding: 45px 50px 5px 45px;
+}
+.comment-receive,.comment-contact{
+    font-size: 1.5rem;
+}
+
+.btn{
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    color: var(--coloraqua2);
+}
+/******* footer *******/
+.isotipo{
+   margin-right:10px;
+}
+.fraseBanner{
+    background-color:var(--coloraqua2);
+}
+.footer-text{
+    background-color:var(--coloraqua2);
+}
+.wpb_column{
+    color: var(--colorwhite2);
+}
+.iconsFooter{
+    background-color: var(--coloraquafuerte);
+}
+.text-footer2{
+    margin-top: -10px;
+}
+;
+
+/******* hero *******/
+.hero{
+    display: block;
+    min-height: 750px;
+    transform: translateY(-10px);
+    padding-top: 1rem;
+    background-color: var(--color_background_white);
+    
+}
+
+.hero-col-img{
+    transform: translateY(-15px);
+    background-color: var(--color_background_white);
+    min-height: 500px;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    background-image: url(imgs/hero.png);
+    background-size: cover;
+   
+}
+
+.hero-paragraph{
+    position: relative;
+    top: 40%;
+
+}
+
+.hero-paragraph h1{
+    color: var(--color_background_white);
+
+}
+
+
+
+/******* languages code *******/
+
+
+.languagues-code{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+}
+
+.lang-card{
+    background-color: var(--color_background_white);
+    border-radius: 5px;
+    margin: 6px;
+    width: auto;
+    height: auto;}
