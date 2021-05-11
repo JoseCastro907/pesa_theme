@@ -23,8 +23,24 @@
             </button>
           </div>
 
+          <!-- Menu hamburguesa -->
 
-      
+          <?php
+                                wp_nav_menu( array(
+                                    'theme_location'    => 'primary',
+                                    'depth'             => 1,
+                                    'container'         => 'div',
+                                    'container_class'   => 'navbar-collapse collapse collapsed',
+                                    'container_id'      => 'bdNavbar',
+                                    'menu_class'        => 'navbar-nav mr-auto',
+                                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                                    'walker'            => new WP_Bootstrap_Navwalker()
+                                ) );
+                            ?>
+
+
+                                
+          <!-- Menu principal -->
           <?php
                             wp_nav_menu( array(
                               'theme_location'    => 'primary',
@@ -37,18 +53,9 @@
                               'walker'            => new WP_Bootstrap_Navwalker()
                           ) );
                       ?>
-                <!-- <?php
-                                wp_nav_menu( array(
-                                    'theme_location'    => 'primary',
-                                    'depth'             => 1,
-                                    'container'         => 'div',
-                                    'container_class'   => 'navbar-collapse collapse collapsed',
-                                    'container_id'      => 'bdNavbar',
-                                    'menu_class'        => 'navbar-nav mr-auto',
-                                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                                    'walker'            => new WP_Bootstrap_Navwalker()
-                                ) );
-                            ?> -->
+
+
+                
             
       </div>
     </nav>
