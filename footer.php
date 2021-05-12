@@ -2,11 +2,11 @@
     <div class="container-fluid footer-text pt-5 pb-5">
         <div class="row justify-content-center ">
             <div class="col-md-10 d-flex justify-content-around">
-                <div class="wpb_column align_left column_parent col-lg-2 col-md-33">
+                <div class="cont1 wpb_column align_left column_parent col-lg-2 col-md-5">
                     <div class="pesa-description">
                         <div class="row row-cols-auto g-0">
-                            <div class="isotipo">
-                                <h5 class="acercade pt-2 pb-3" style="font-weight: 700">ACERCA DE</h5>
+                            <div class="acerca-de-title">
+                                <h5 class="acerca-de pt-2 pb-3" style="font-weight: 700">ACERCA DE</h5>
                             </div>
                             <div class="isotipo">
                                 <img class=" isotipo"
@@ -16,17 +16,14 @@
                         </div>
                     </div>
                     <p>
-                        Diseñamos y desarrollamos
-                        software para clientes,
-                        especializándonos en la
-                        creación de sitios web
-                        hermosos y modernos,
-                        portafolios web y tiendas de
-                        comercio electrónico.
+                        Diseñamos y desarrollamos software para clientes,<br>
+                        especializándonos en la creación de sitios web<br>
+                        hermosos y modernos, portafolios web y tiendas de<br>
+                        comercio electrónico.<br>
                     </p>
                 </div>
 
-                <div class="wpb_column align_left column_parent col-lg-2 col-md-33">
+                <div class="cont2 wpb_column align_left column_parent col-lg-2 col-md-5">
                     <div class="row recomendado  pl-3">
                         <h5 class="acerca-de pt-2 pb-3" style="font-weight: 700">
                             RECOMENDADO
@@ -40,7 +37,7 @@
 
                 </div>
 
-                <div class="wpb_column align_left column_parent col-lg-2 col-md-33">
+                <div class="cont3 wpb_column align_left column_parent col-lg-2 col-md-4">
                     <div class="direction-description">
                         <div class="row row-cols-auto g-0">
                             <div class="isotipo">

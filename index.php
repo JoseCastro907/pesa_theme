@@ -252,12 +252,8 @@
     </div>
 </div>
 
-<div class="containerpadding" id="contacto">
-    <span class="m-1"></span>
-</div>
-
 <!-- contactanos  -->
-<div class="container-fluid pt-5 pb-5">
+<div class="container-fluid pt-5 pb-5" id="contacto">
     <div class="row justify-content-center">
 
         <div class="col-md-10 d-flex">
@@ -265,20 +261,20 @@
                 <div class="contacta">
                     <h3 class="cantact2 pt-2 pb-1 align_left">Contacta con nosotros</h3>
                 </div>
-                <p class="comment-contact pb-4">envíanos tus requerimientos a nuestro correo describiendo a<br>detalle
-                    tu proyecto a
-                    desarrollar o agenda una llamada con<br>nosotros.
+                <div class="comment-text">
+                <p class="comment-contact pb-4 text-left">envíanos tus requerimientos a nuestro correo describiendo a<br>detalle tu proyecto a desarrollar o agenda una llamada con<br>nosotros.
                 </p>
+                </div>
             </div>
 
             <div class="recibe1 col-sm-6 justify-content-center text-center" style="padding-left: 0;">
                 <div class="Recibe">
                     <h3 class="recibe2 pt-2 pb-1 align_left">Recibe tu cotización</h3>
                 </div>
-                <p class="comment-receive pb-4">te enviaremos una cotización a tu correo electronico<br>lo antes posible
-                    con
-                    caracteristicas, costos y tiempo<br>de desarrollo de tu proyecto.
+                <div class="recibe-text">
+                <p class="comment-receive pb-4 text-left">te enviaremos una cotización a tu correo electronico<br>lo antes posible con caracteristicas, costos y tiempo<br>de desarrollo de tu proyecto.
                 </p>
+                </div>
             </div>
         </div>
     </div>
