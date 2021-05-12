@@ -23,8 +23,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url(css/queries.css);
 @import url(css/services.css);
 @import url(css/languages.css);
-
-
+@import url(css/font.css);
+@font-face {font-family: pesa; src: url(fonts/Barlow-Regular.ttf);}
 
 :root{
 
@@ -40,14 +40,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --color--acento-dark-background: #17242A;
     --color--acento-guias: #2B7A78;
     --color-buttons-light: #DEF2F1;
-    --font-barlow: Barlow;
+     --font-barlow:pesa;
 }
 
 
 body{
     
     background-color: var(--color--acento-background)!important;
-    font-family: var(--font-barlow) !important;
+    font-family: pesa !important;
 }
 
 /******* carusel *******/
