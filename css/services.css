@@ -1,5 +1,11 @@
 @import url(colors.css);
 
+
+
+.card{
+
+}
+
 .card-body{
     width: 210px;
     min-height: 250px;
@@ -22,4 +28,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem; */
 
+}
+
+
+.img-services{
+    max-width: 100px;
+    min-width: 100px;
 }
