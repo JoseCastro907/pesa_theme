@@ -226,10 +226,10 @@ body{
 /******* hero *******/
 .hero{
     display: block;
-    min-height: 750px;
+    /* min-height: 750px; */
     transform: translateY(-10px);
     padding-top: 1rem;
-    background-color: var(--color_background_white);
+    /* background-color: var(--color_background_white); */
     
 }
 
