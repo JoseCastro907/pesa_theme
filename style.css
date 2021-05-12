@@ -22,6 +22,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url(css/header.css);
 @import url(css/queries.css);
 @import url(css/services.css);
+@import url(css/languages.css);
 
 
 
@@ -42,9 +43,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --font-barlow: Barlow;
 }
 
+
 body{
-    font-family: var(--font-barlow), sans-serif;
+    
     background-color: var(--color--acento-background)!important;
+    font-family: var(--font-barlow) !important;
 }
 
 /******* carusel *******/
@@ -188,20 +191,3 @@ body{
 
 }
 
-
-
-/******* languages code *******/
-
-
-.languagues-code{
-    width: 80%;
-    margin: auto;
-    height: 400px;
-}
-
-.lang-card{
-    background-color: var(--color_background_white);
-    border-radius: 5px;
-    margin: 6px;
-    width: auto;
-    height: auto;}

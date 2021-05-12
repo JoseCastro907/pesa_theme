@@ -10,17 +10,16 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="hero">
-                <div class="row h-100">
-                    <div class="col">
+                <div class="row h-100 d-flex justify-content-center">
+                    <div class="col-10 col-md" style="padding-bottom: 114px;">
                         <div class="hero-paragraph">
                             <div class="align-middle h-100 mb-3">
-                                <h1>Un buen negocio incluye un<br>
-                                    buen producto digital y un buen precio.</h1>
+                                <h1>Un buen negocio incluye un buen producto digital y un buen precio.</h1>
                                 <button class="btn btn-light mt-4" style="font-weight: 600"> Saber mas</button>
                             </div>
                         </div>
                     </div>
-                    <div class="hero-col-img col">
+                    <div class="hero-col-img col-10 col-md">
                         <div class="hero-img">
                             <span></span>
                         </div>
@@ -31,9 +30,6 @@
     </div>
 </div>
 
-<div class="containerpadding" id="proyectos">
-    <span class="m-1"></span>
-</div>
 
 <!-- Carrousel -->
 <div class="container-fluid pt-5 pb-5">
@@ -85,28 +81,26 @@
     </div>
 </div>
 
-<!-- offset de fixed menu -->
+<!-- link de servicios padding 50px-->
 <div class="containerpadding" id="servicios">
     <span class="m-1"></span>
 </div>
-<!-- services PESA -->
-<div class="col-md-10">
 
-</div>
+<!-- services PESA -->
 <div class="container-fluid">
-    <div class="row justify-content-center">
+    <div class="row d-flex justify-content-center">
         <div class="col-md-10">
             <h2 class="carouselTitle mb-4">Nuestros Servicios</h2>
-            <div class="row justify-content-center">
-                <div class="col-xs-12 col-md-5">
-                    <div class="card justify-content-center mb-3" style="max-width: 540px;">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 col-md-5">
+                    <div class="card justify-content-center mb-3" style="max-width: ;">
                         <div class="row g-0 align-items-center">
-                            <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center pt-2">
                                 <img class="img-services"
                                     src="<?php echo get_template_directory_uri() . "/imgs/comunicacion.png"; ?>"
                                     alt="servicio" style="width: 100px;">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col">
                                 <div class="card-body">
                                     <h5 class="card-title">Marketing Redes</h5>
                                     <p class="card-text">Mercadeo y estudio de plan de negocios</p>
@@ -115,33 +109,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-5">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <div class="col-10 col-md-5">
+                    <div class="card mb-3" style="max-width: ;">
                         <div class="row g-0 align-items-center">
-                            <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center pt-2">
                                 <img class="img-services"
                                     src="<?php echo get_template_directory_uri() . "/imgs/comision.png" ?>"
                                     alt="servicio" style="width: 100px;">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col">
                                 <div class="card-body">
                                     <h5 class="card-title">Aplicaciones Web</h5>
-                                    <p class="card-text">Sistemas de control en linea y administracion de empresas
+                                    <p clas s="card-text">Sistemas de control en linea y administracion de empresas
                                         mediante appliaciones web</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-5">
-                    <div class="card justify-content-center mb-3" style="max-width: 540px;">
+                <div class="col-10 col-md-5">
+                    <div class="card justify-content-center mb-3" style="max-width: ;">
                         <div class="row g-0 align-items-center">
-                            <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center pt-2">
                                 <img class="img-services"
                                     src="<?php echo get_template_directory_uri() . "/imgs/metas.png" ?>" alt="servicio"
                                     style="width: 100px;">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col">
                                 <div class="card-body">
                                     <h5 class="card-title">Tienda Virtual</h5>
                                     <p class="card-text">Con nosotros puede tener su tienda ecommerce, no dude en
@@ -151,15 +145,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-5">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <div class="col-10 col-md-5">
+                    <div class="card mb-3" style="max-width: ;">
                         <div class="row g-0 align-items-center">
-                            <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center pt-2">
                                 <img class="img-services"
                                     src="<?php echo get_template_directory_uri() . "/imgs/conexion.png" ?>"
                                     alt="servicio" style="width: 100px;">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col">
                                 <div class="card-body">
                                     <h5 class="card-title">Soluciones Digitales</h5>
                                     <p class="card-text">Queremos impuslar el comercio electronico en proyectos de todo
@@ -179,42 +173,43 @@
 <div class="containerpadding" id="tecnologias">
     <span class="m-1"></span>
 </div>
+
 <!-- cards languagues-programming -->
 <div class="container-fluid row">
     <div class="languagues-code col-md-10">
         <div class="row mb-2">
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/angularjs-original.svg" ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/vuejs-original.svg" ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/mongodb-original.svg" ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/laravel-plain.svg" ?>" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/oracle-original.svg" ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/woocommerce-original.svg" ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/wordpress-plain.svg" ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
-                <img class="code-img"
+                <img class="code-img p-2"
                     src="<?php echo get_template_directory_uri()."/imgs/code-tech/bootstrap-plain.svg" ?>" alt="">
             </div>
         </div>

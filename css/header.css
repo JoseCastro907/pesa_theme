@@ -1,10 +1,18 @@
 @import url(colors.css);
 
 
+@media (max-width: 767.98px) { 
+    .navbar{
+        padding-inline-start: 1rem;
+    }
+ }
+
+
 
 .navbar{
     background-color: var(--color-buttons-light);
-    height: 92px;
+    /* height: 92px; */
+    border-bottom: 2.5px solid var(--color-buttons-light);
 
 }
 
@@ -34,7 +42,7 @@
 
 
 .containerpadding {
-    height: 96px;
+    height: 50px;
     width: 100%; }
 
 
@@ -42,6 +50,7 @@
     font-weight: 700;
     font-size: 2rem;
     color: var(--color--acento-guias);
+    text-decoration: none;
 }
 
 
@@ -49,8 +58,20 @@
 
 #bdNavbar{
     font-size: 1.4rem;
+    
+}
+
+
+#bdNavbar ul > li a{
+    color: var(--color--acento-guias);
+    margin-top: 15px;
+    font-weight: 500;
 
 }
 
 
 
+/* #header-nav li > ul > li a {
+    background-color: red;
+    font-size: 80%;
+  } */

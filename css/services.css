@@ -3,6 +3,7 @@
 .card-body{
     width: 210px;
     min-height: 250px;
+    min-width: none;
     /* max-height: 210px; */
 }
 
@@ -17,8 +18,8 @@
 .code-img{
     width: 100%;    
     max-width: 150px;
-    margin-inline-start: 1rem;
+    /* margin-inline-start: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
 
 }

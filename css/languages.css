@@ -1,0 +1,17 @@
+
+
+/******* languages code *******/
+
+
+.languagues-code{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.lang-card{
+    background-color: var(--color_background_white);
+    border-radius: 5px;
+    margin: 6px;
+    width: auto;
+    height: auto;}
