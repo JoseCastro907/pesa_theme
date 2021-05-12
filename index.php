@@ -15,7 +15,7 @@
                         <div class="hero-paragraph">
                             <div class="align-middle h-100 mb-3">
                                 <h1>Un buen negocio incluye un<br>
-                                    buen producto digital.</h1>
+                                    buen producto digital y un buen precio.</h1>
                                 <button class="btn btn-light mt-4" style="font-weight: 600"> Saber mas</button>
                             </div>
                         </div>
