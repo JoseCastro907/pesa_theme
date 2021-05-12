@@ -222,6 +222,29 @@ body{
         padding-right: 20px;
     }
 }
+@media only screen and (max-width:370px) {
+    .footer-text{
+        font-size: 0.7rem;
+    }
+    .btn-floating{
+        padding-left: 0px !important;
+    }
+    .facebook{
+        content:url("imgs/icons/facebook_white25.png");
+    }
+    .instagram{
+        content:url("imgs/icons/instagram25.png");
+    }
+    .pinterest{
+        content:url("imgs/icons/pinterest_white25.png");
+    }
+    .twitter{
+        content:url("imgs/icons/twitter_white25.png");
+    }
+    .linkedin{
+        content:url("imgs/icons/linkedin_white25.png");
+    }
+}
 
 /******* hero *******/
 .hero{
