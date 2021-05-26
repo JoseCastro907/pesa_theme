@@ -15,7 +15,7 @@
     <nav class="navbar row fixed-top">
       <div class="container-fluid col-md-10">
           <div class="brand">
-            <h3><a href="index.html">PESA</a></h3>
+            <h3><a href="<?php echo home_url(); ?>">PESA</a></h3>
           </div>
           <div class="container-button">
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
