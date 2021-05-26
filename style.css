@@ -152,7 +152,10 @@ body{
         font-size: 1rem;
     }  
     .cantact1{
-        border-width: 0 3px 0 0px;
+        border: none;
+    }
+    .principal-contact{
+        flex-direction: column;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1980px) {
@@ -162,7 +165,6 @@ body{
     .comment-receive{
         padding-left: 2px;
     }
-    
 }
 
 .btn{
@@ -191,6 +193,11 @@ body{
 }
 .text-footer2{
     margin-top: -10px;
+}
+@media only screen and (max-width:320px) {
+    .acerca-de{
+        font-size: 0.8rem !important;
+    }
 }
 @media only screen and (max-width:480px) {
     .wpb_column{

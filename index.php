@@ -251,7 +251,7 @@
 <div class="container-fluid pt-5 pb-5" id="contacto">
     <div class="row justify-content-center">
 
-        <div class="col-md-10 d-flex">
+        <div class="principal-contact col-md-10 d-flex">
             <div class="cantact1 col-sm-6 justify-content-center text-center" style="padding-right: 0;">
                 <div class="contacta">
                     <h3 class="cantact2 pt-2 pb-1 align_left">Contacta con nosotros</h3>
