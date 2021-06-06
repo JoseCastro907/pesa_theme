@@ -6,7 +6,7 @@
     </div>
     <div class="py-3">
         <div class="display-4">
-        No encontramos la página 
+        No encontramos la página
         <br>Pero nuestro amigo la esta buscando . . .
         </div>
     </div>

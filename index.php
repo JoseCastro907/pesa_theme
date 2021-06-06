@@ -37,7 +37,7 @@
     <div class="row justify-content-center">
 
         <div class="col-md-10">
-            <h2 class="carouselTitle pt-2 pb-3">Proyectos Recientes</h2>
+            <h2 class="subTitle pt-2 pb-3">Proyectos Recientes</h2>
             <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
@@ -55,12 +55,12 @@
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid w-100"
-                            src="<?php echo get_template_directory_uri() . "/imgs/carusel_PESA/2_5.png" ?>"
+                            src="<?php echo get_template_directory_uri() . "/imgs/carusel_PESA/2_5.png"; ?>"
                             alt="Second slide">
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid w-100"
-                            src="<?php echo get_template_directory_uri() . "/imgs/carusel_PESA/3.png" ?>"
+                            src="<?php echo get_template_directory_uri() . "/imgs/carusel_PESA/3.png"; ?>"
                             alt="Third slide">
                     </div>
 
@@ -87,79 +87,146 @@
 </div>
 
 <!-- services PESA -->
-<div class="container-fluid">
-    <div class="row d-flex justify-content-center">
+<div class="container-fluid pt-5 pb-5">
+    <div class="row justify-content-center">
         <div class="col-md-10">
-            <h2 class="carouselTitle mb-4">Nuestros Servicios</h2>
-            <div class="row d-flex justify-content-center">
-                <div class="col-10 col-md-5">
-                    <div class="card justify-content-center mb-3" style="max-width: ;">
-                        <div class="row g-0 align-items-center">
-                            <div class="col d-flex justify-content-center pt-2">
-                                <img class="img-services"
-                                    src="<?php echo get_template_directory_uri() . "/imgs/comunicacion.png"; ?>"
-                                    alt="servicio" style="width: 100px;">
+            <h2 class="subTitle pt-2 pb-3">Nuestros Servicios</h2>
+            <div class="row d-flex justify-content-evenly">
+
+                <div class="col-7 col-md-5 col-lg-2 ml-auto mr-auto card-price">
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <img class="img-services"
+                                src="<?php echo get_template_directory_uri() . "/imgs/comunicacion.png"; ?>"
+                                alt="servicio">
+                        </div>
+                        <div class="col-12">
+                            <h5 class="price-title">Marketing Redes</h5>
+                        </div>
+                        <div class="col-12">
+
+                            <ul class="list-group text-truncate">
+                                <li class="item-group">de plan de negocios</li>
+                                <li class="item-group">Mercadeo de negocios</li>
+                                <li class="item-group">estudio de plan de negocios</li>
+                                <li class="item-group">Mercadeo de negocios</li>
+                                <li class="item-group">estudio de plan de negocios</li>
+                                <li class="item-group">Mercadeo de negocios</li>
+                                <li class="item-group">Principios UX-UI</li>
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <div class="col d-flex">
+                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-cost">$700</h5>
                             </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">Marketing Redes</h5>
-                                    <p class="card-text">Mercadeo y estudio de plan de negocios</p>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-md-5">
-                    <div class="card mb-3" style="max-width: ;">
-                        <div class="row g-0 align-items-center">
-                            <div class="col d-flex justify-content-center pt-2">
-                                <img class="img-services"
-                                    src="<?php echo get_template_directory_uri() . "/imgs/comision.png" ?>"
-                                    alt="servicio" style="width: 100px;">
+
+                <div class="col-7 col-md-5 col-lg-2 ml-auto mr-auto card-price">
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <img class="img-services"
+                                src="<?php echo get_template_directory_uri()."/imgs/comision.png"; ?>" alt="servicio">
+                        </div>
+                        <div class="col-12">
+                            <h5 class="price-title">Aplicaciones Web</h5>
+                        </div>
+                        <div class="col-12">
+                            <ul class="list-group">
+                                <li class="item-group">en linea</li>
+                                <li class="item-group">appliaciones web</li>
+                                <li class="item-group">control en linea</li>
+                                <li class="item-group">appliaciones web</li>
+                                <li class="item-group">control en linea</li>
+                                <li class="item-group">appliaciones web</li>
+                                <li class="item-group">Principios UX-UI</li>
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <div class="col d-flex">
+                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-cost">$1200</h5>
                             </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">Aplicaciones Web</h5>
-                                    <p clas s="card-text">Sistemas de control en linea y administracion de empresas
-                                        mediante appliaciones web</p>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-md-5">
-                    <div class="card justify-content-center mb-3" style="max-width: ;">
-                        <div class="row g-0 align-items-center">
-                            <div class="col d-flex justify-content-center pt-2">
-                                <img class="img-services"
-                                    src="<?php echo get_template_directory_uri() . "/imgs/metas.png" ?>" alt="servicio"
-                                    style="width: 100px;">
+
+                <div class="col-7 col-md-5 col-lg-2 ml-auto mr-auto card-price">
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <img class="img-services"
+                                src="<?php echo get_template_directory_uri() . "/imgs/metas.png"; ?>" alt="servicio">
+                        </div>
+                        <div class="col-12">
+                            <h5 class="price-title">Tienda Virtual</h5>
+                        </div>
+                        <div class="col-12">
+                            <ul class="list-group">
+                                <li class="item-group">tienda ecommerce</li>
+                                <li class="item-group">seguimiento de su proyecto</li>
+                                <li class="item-group">plan de seguimiento</li>
+                                <li class="item-group">tienda ecommerce</li>
+                                <li class="item-group">seguimiento de su proyecto</li>
+                                <li class="item-group">plan de seguimiento</li>
+                                <li class="item-group">Principios UX-UI</li>
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <div class="col d-flex">
+                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-cost">$1500</h5>
                             </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tienda Virtual</h5>
-                                    <p class="card-text">Con nosotros puede tener su tienda ecommerce, no dude en
-                                        contactarnos para un plan de seguimiento de su proyecto</p>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-md-5">
-                    <div class="card mb-3" style="max-width: ;">
-                        <div class="row g-0 align-items-center">
-                            <div class="col d-flex justify-content-center pt-2">
-                                <img class="img-services"
-                                    src="<?php echo get_template_directory_uri() . "/imgs/conexion.png" ?>"
-                                    alt="servicio" style="width: 100px;">
+
+                <div class="col-7 col-md-5 col-lg-2 ml-auto mr-auto card-price">
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <img class="img-services"
+                                src="<?php echo get_template_directory_uri() . "/imgs/conexion.png"; ?>" alt="servicio">
+                        </div>
+                        <div class="col-12">
+                            <h5 class="price-title">Soluciones Digitales</h5>
+                        </div>
+                        <div class="col-12">
+                            <ul class="list-group">
+                                <li class="item-group">comercio electronico</li>
+                                <li class="item-group">seguimiento de su proyecto</li>
+                                <li class="item-group">plan de seguimiento</li>
+                                <li class="item-group">tienda ecommerce</li>
+                                <li class="item-group">seguimiento de su proyecto</li>
+                                <li class="item-group">plan de seguimiento</li>
+                                <li class="item-group">Principios UX-UI</li>
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <div class="col d-flex">
+                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-cost">$2200</h5>
                             </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5 class="card-title">Soluciones Digitales</h5>
-                                    <p class="card-text">Queremos impuslar el comercio electronico en proyectos de todo
-                                        tipo, estamos siempre a disposicion del cliente y sus necesidades</p>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -180,37 +247,37 @@
         <div class="row mb-2">
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/angularjs-original.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/angularjs-original.svg"; ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/vuejs-original.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/vuejs-original.svg"; ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/mongodb-original.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/mongodb-original.svg"; ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/laravel-plain.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/laravel-plain.svg"; ?>" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/oracle-original.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/oracle-original.svg"; ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/woocommerce-original.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/woocommerce-original.svg"; ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/wordpress-plain.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/wordpress-plain.svg"; ?>" alt="">
             </div>
             <div class="col lang-card d-flex justify-content-center">
                 <img class="code-img p-2"
-                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/bootstrap-plain.svg" ?>" alt="">
+                    src="<?php echo get_template_directory_uri()."/imgs/code-tech/bootstrap-plain.svg"; ?>" alt="">
             </div>
         </div>
     </div>
@@ -257,8 +324,9 @@
                     <h3 class="cantact2 pt-2 pb-1 align_left">Contacta con nosotros</h3>
                 </div>
                 <div class="comment-text">
-                <p class="comment-contact pb-4 text-left">envíanos tus requerimientos a nuestro correo describiendo a<br>detalle tu proyecto a desarrollar o agenda una llamada con<br>nosotros.
-                </p>
+                    <p class="comment-contact pb-4 text-left">envíanos tus requerimientos a nuestro correo describiendo
+                        a<br>detalle tu proyecto a desarrollar o agenda una llamada con<br>nosotros.
+                    </p>
                 </div>
             </div>
 
@@ -267,14 +335,16 @@
                     <h3 class="recibe2 pt-2 pb-1 align_left">Recibe tu cotización</h3>
                 </div>
                 <div class="recibe-text">
-                <p class="comment-receive pb-4 text-left">te enviaremos una cotización a tu correo electronico<br>lo antes posible con caracteristicas, costos y tiempo<br>de desarrollo de tu proyecto.
-                </p>
+                    <p class="comment-receive pb-4 text-left">te enviaremos una cotización a tu correo electronico<br>lo
+                        antes posible con caracteristicas, costos y tiempo<br>de desarrollo de tu proyecto.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="boton-contacto pt-5 pb-5 text-center">
-        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Ponte en contacto con nuestros
+        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Ponte en
+            contacto con nuestros
             expertos</button>
     </div>
 </div>
