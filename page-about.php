@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-11 col-md-5">
                 <img class="img-about"
-                    src="<?php echo get_template_directory_uri() . "/imgs/about/ceo.jpg"; ?>"
+                    src="<?php echo get_template_directory_uri() . "/imgs/about/ceo.png"; ?>"
                     alt="miembro_ceo">
             </div>
             <div class="col-11 col-md-7">
