@@ -13,7 +13,7 @@
             <div class="col-11 col-md-5">
                 <img class="img-about"
                     src="<?php echo get_template_directory_uri() . "/imgs/about/ceo.jpg"; ?>"
-                    alt="servicio">
+                    alt="miembro_ceo">
             </div>
             <div class="col-11 col-md-7">
                 <div class="display-2 about-member pb-2 pt-2">
@@ -41,7 +41,7 @@
             <div class="col-11 col-md-5">
                 <img class="img-about"
                     src="<?php echo get_template_directory_uri() . "/imgs/about/manager.png"; ?>"
-                    alt="servicio">
+                    alt="miembro_manager">
             </div>
         </div>
     </div>

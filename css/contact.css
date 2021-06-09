@@ -1,0 +1,17 @@
+.contact-item{
+    background-color: var(--coloraqua2);
+    border: 2px solid var(--color_background_white);
+    margin-bottom: 1rem;
+}
+
+.contact-item:hover{
+    background-color: var(--coloraquafuerte);
+}
+
+.contact-item > h4{
+    color: var(--color_background_white);
+}
+
+.contact-icon{
+    max-width: 48px;
+}
