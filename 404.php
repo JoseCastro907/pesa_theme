@@ -10,8 +10,7 @@
         <br>Pero nuestro amigo la esta buscando . . .
         </div>
     </div>
-    <div class="tenor-gif-embed" data-postid="14382042" data-share-method="host" data-width="100%" data-aspect-ratio="1.3351206434316354"><a href="https://tenor.com/view/ostrich-bird-framesequence-framesequence-gifs-petter-pentila-gif-14382042">Ostrich Bird GIF</a> from <a href="https://tenor.com/search/ostrich-gifs">Ostrich GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-</div>
-
-
+    <div class="col-6 offset-3">
+    <img src="https://media1.tenor.com/images/f6ae3b5ba286fb6724fac311f8086510/tenor.gif"></div>
+    
 
