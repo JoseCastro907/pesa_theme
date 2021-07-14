@@ -55,7 +55,7 @@ body{
 }
 
 .box{
-	background: var(--color--acento-dark-background);
+	background: white;
 	border-radius: 10px;
 	min-height: 226px;
 }
@@ -76,7 +76,7 @@ body{
 }
 
 .service_title{
-    color: var(--color_background_white);
+    color: var(--color--acento-dark-background);
 }
 
 .pesa_logo{
