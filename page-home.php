@@ -14,8 +14,8 @@
                     <div class="col-10 col-md" style="padding-bottom: 114px;">
                         <div class="hero-paragraph">
                             <div class="align-middle h-100 mb-3">
-                                <h1>Un buen negocio incluye un buen producto digital y un buen precio.</h1>
-                                <button class="btn btn-light mt-4" style="font-weight: 600"> Saber mas</button>
+                                <h1>We are a company Powered by Technology and Driven by Talent.</h1>
+                                <button class="btn btn-light mt-4" style="font-weight: 600">Learn more</button>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
     <div class="row justify-content-center">
 
         <div class="col-md-10">
-            <h2 class="subTitle pt-2 pb-3">Proyectos Recientes</h2>
+            <h2 class="subTitle pt-2 pb-3">Some of our latest projects</h2>
             <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
@@ -90,7 +90,7 @@
 <div class="container-fluid pt-5 pb-5">
     <div class="row justify-content-center">
         <div class="col-md-10">
-            <h2 class="subTitle pt-2 pb-3">Nuestros Servicios</h2>
+            <h2 class="subTitle pt-2 pb-3">Our Services</h2>
             <div class="row d-flex justify-content-evenly">
 
                 <div class="col-7 col-md-5 col-lg-2 ml-auto mr-auto card-price">
@@ -103,28 +103,28 @@
                                 alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Marketing Redes</h5>
+                            <h5 class="price-title">Social media</h5>
                         </div>
                         <div class="col-12">
 
-                            <ul class="list-group text-truncate">
-                                <li class="item-group">de plan de negocios</li>
-                                <li class="item-group">Mercadeo de negocios</li>
-                                <li class="item-group">estudio de plan de negocios</li>
-                                <li class="item-group">Mercadeo de negocios</li>
-                                <li class="item-group">estudio de plan de negocios</li>
-                                <li class="item-group">Mercadeo de negocios</li>
-                                <li class="item-group">Principios UX-UI</li>
+                            <ul class="list-group">
+                                <li class="item-group">Weekly posts</li>
+                                <li class="item-group">Custom design for your business</li>
+                                <li class="item-group">Weekly management</li>
+                                <li class="item-group">Monthly reports</li>
+                                <li class="item-group">Interaction with customers</li>
+                                <li class="item-group">Designs included</li>
+                                <li class="item-group">Optional: social media store</li>
                             </ul>
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-from">From:</h5>
                                 <h5 class="price-cost">$700</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">shop now</button></a>
                         </div>
                     </div>
                 </div>
@@ -138,27 +138,27 @@
                                 src="<?php echo get_template_directory_uri()."/imgs/comision.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Aplicaciones Web</h5>
+                            <h5 class="price-title">Web development</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
-                                <li class="item-group">en linea</li>
-                                <li class="item-group">appliaciones web</li>
-                                <li class="item-group">control en linea</li>
-                                <li class="item-group">appliaciones web</li>
-                                <li class="item-group">control en linea</li>
-                                <li class="item-group">appliaciones web</li>
-                                <li class="item-group">Principios UX-UI</li>
+                                <li class="item-group">Modern and personalized design</li>
+                                <li class="item-group">Unlimited extension</li>
+                                <li class="item-group">Contact optimization</li>
+                                <li class="item-group">.com or .cr domain included</li>
+                                <li class="item-group">Cloud integration</li>
+                                <li class="item-group">Continuous advice</li>
+                                <li class="item-group">UX-UI principles</li>
                             </ul>
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-from">From:</h5>
                                 <h5 class="price-cost">$1200</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-web/"> <button type="button" class="btn btnContact">shop now</button></a>
                         </div>
                     </div>
                 </div>
@@ -172,27 +172,27 @@
                                 src="<?php echo get_template_directory_uri() . "/imgs/metas.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Tienda Virtual</h5>
+                            <h5 class="price-title">E-commerce Store</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
-                                <li class="item-group">tienda ecommerce</li>
-                                <li class="item-group">seguimiento de su proyecto</li>
-                                <li class="item-group">plan de seguimiento</li>
-                                <li class="item-group">tienda ecommerce</li>
-                                <li class="item-group">seguimiento de su proyecto</li>
-                                <li class="item-group">plan de seguimiento</li>
-                                <li class="item-group">Principios UX-UI</li>
+                                <li class="item-group">Modern and personalized design</li>
+                                <li class="item-group">Unlimited product quantity</li>
+                                <li class="item-group">Purchase flow optimization</li>
+                                <li class="item-group">Product categorization</li>
+                                <li class="item-group">Inventory management</li>
+                                <li class="item-group">Monitoring plan</li>
+                                <li class="item-group">UX-UI principles</li>
                             </ul>
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-from">From:</h5>
                                 <h5 class="price-cost">$1500</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/   "> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/"> <button type="button" class="btn btnContact">shop now</button></a>
                         </div>
                     </div>
                 </div>
@@ -206,27 +206,27 @@
                                 src="<?php echo get_template_directory_uri() . "/imgs/conexion.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Soluciones Digitales</h5>
+                            <h5 class="price-title">Mobile Apps</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
-                                <li class="item-group">comercio electronico</li>
-                                <li class="item-group">seguimiento de su proyecto</li>
-                                <li class="item-group">plan de seguimiento</li>
-                                <li class="item-group">tienda ecommerce</li>
-                                <li class="item-group">seguimiento de su proyecto</li>
-                                <li class="item-group">plan de seguimiento</li>
-                                <li class="item-group">Principios UX-UI</li>
+                                <li class="item-group">Modern and personalized design</li>
+                                <li class="item-group">Automated QA and testing</li>
+                                <li class="item-group">Best technological solutions</li>
+                                <li class="item-group">Cross-platform</li>
+                                <li class="item-group">Cloud integration</li>
+                                <li class="item-group">Monitoring plan</li>
+                                <li class="item-group">UX-UI principles</li>
                             </ul>
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-from">From:</h5>
                                 <h5 class="price-cost">$2200</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">shop now</button></a>
                         </div>
                     </div>
                 </div>
@@ -287,13 +287,13 @@
         <div class="col-md-10">
 
             <div class="display-4 banner-frase1">
-                Lo Ultimo en Tecnologias Digitales
+                Areas of Expertise
             </div>
             <h3 class="banner-frase2 mt-2">
-                Productos Profesionales
+                Based on many years of experience
             </h3>
             <div class="boton-contacto pt-5 pb-5 text-center">
-                <button class="btn btn-light pt-2 pb-2 " style="font-weight: 600" type="button">Saber mas</button>
+                <button class="btn btn-light pt-2 pb-2 " style="font-weight: 600" type="button">Learn more</button>
             </div>
         </div>
     </div>
@@ -304,11 +304,11 @@
     <div class="row justify-content-center text-center">
         <div class="col-md-10">
             <h1 class="frase-1 pt-2">
-                Un gran diseño nace de <br>
-                una historia aún mejor
+                A great design begins with <br>
+                even a better story
             </h1>
             <h3 class="frase-2 pt-2">
-                Comencemos un proyecto juntos
+                Let’s start a project together!
             </h3>
         </div>
     </div>
@@ -321,32 +321,30 @@
         <div class="principal-contact col-md-10 d-flex">
             <div class="cantact1 col-sm-6 justify-content-center text-center" style="padding-right: 0;">
                 <div class="contacta">
-                    <h3 class="cantact2 pt-2 pb-1 align_left">Contacta con nosotros</h3>
+                    <h3 class="cantact2 pt-2 pb-1 align_left">Contact Us</h3>
                 </div>
                 <div class="comment-text">
-                    <p class="comment-contact pb-4 text-left">envíanos tus requerimientos a nuestro correo describiendo
-                        a<br>detalle tu proyecto a desarrollar o agenda una llamada con<br>nosotros.
+                    <p class="comment-contact pb-4 text-left">Once you let us know your requirements,<br>
+                    our technical expert will schedule a call and discuss your ideas in detail.
                     </p>
                 </div>
             </div>
 
             <div class="recibe1 col-sm-6 justify-content-center text-center" style="padding-left: 0;">
                 <div class="Recibe">
-                    <h3 class="recibe2 pt-2 pb-1 align_left">Recibe tu cotización</h3>
+                    <h3 class="recibe2 pt-2 pb-1 align_left">Get a Cost Estimate</h3>
                 </div>
                 <div class="recibe-text">
-                    <p class="comment-receive pb-4 text-left">te enviaremos una cotización a tu correo electronico<br>lo
-                        antes posible con caracteristicas, costos y tiempo<br>de desarrollo de tu proyecto.
+                    <p class="comment-receive pb-4 text-left">Based on the project requirements,<br>
+                    we share a project proposal with a budget and timeline estimates.
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="boton-contacto pt-5 pb-5 text-center">
-        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Ponte en
-            contacto con nuestros
-            expertos</button>
+        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Talk to our team</button>
     </div>
 </div>
 
-<?php get_footer(); ?>
+<?php get_footer('inner'); ?>

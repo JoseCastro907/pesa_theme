@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="offset-1">
+<div class="offset-1 pt-5">
     <div class="p-2">
         <div class="pt-5 display-1">
             Equipo de Desarrollo

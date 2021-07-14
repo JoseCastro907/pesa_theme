@@ -18,7 +18,7 @@
                     <p>
                         Diseñamos y desarrollamos software para clientes,<br>
                         especializándonos en la creación de sitios web<br>
-                        hermosos y modernos, portafolios web y tiendas de<br>
+                        profesionales y modernos, portafolios web y tiendas de<br>
                         comercio electrónico.<br>
                     </p>
                 </div>

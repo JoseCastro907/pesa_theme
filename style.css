@@ -54,6 +54,16 @@ body{
     font-family: pesa !important;
 }
 
+.box{
+	background: white;
+	border-radius: 10px;
+	
+}
+
+.img_pack{
+	width:100%;
+}
+
 /******* carusel *******/
 
 .subTitle{
@@ -293,5 +303,7 @@ body{
     color: var(--color_background_white);
 
 }
+
+
 
 
