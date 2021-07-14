@@ -19,10 +19,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero-col-img col-10 col-md">
-                        <div class="hero-img">
-                            <span></span>
-                        </div>
+                    <div class="col-10 col-md">
+                        <img class="img-fluid w-100"
+                            src="<?php echo get_template_directory_uri() . "/imgs/pesahero.png"; ?>"
+                            alt="Third slide">
                     </div>
                 </div>
             </div>
