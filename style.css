@@ -57,7 +57,30 @@ body{
 .box{
 	background: white;
 	border-radius: 10px;
-	
+	min-height: 226px;
+}
+
+.btn_a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn_a:hover{
+    color: var(--color--acento-background);
+
+}
+
+.service_p_col{
+    color: var(--color_background_white);
+}
+
+.service_title{
+    color: var(--color_background_white);
+}
+
+.pesa_logo{
+    max-width: 150px;
 }
 
 .img_pack{

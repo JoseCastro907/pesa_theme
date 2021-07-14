@@ -16,7 +16,7 @@
       <div class="container-fluid col-md-10">
           <div class="brand">
           <a href="<?php echo home_url(); ?>">
-          <img class=""
+          <img class="pesa_logo"
             src="<?php echo get_template_directory_uri() . "/imgs/pesax40.png"; ?>"
             alt="PESA LOGO">
             </a>
