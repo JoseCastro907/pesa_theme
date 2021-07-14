@@ -15,7 +15,11 @@
     <nav class="navbar row fixed-top">
       <div class="container-fluid col-md-10">
           <div class="brand">
-            <h3><a href="<?php echo home_url(); ?>">PESA</a></h3>
+          <a href="<?php echo home_url(); ?>">
+          <img class=""
+            src="<?php echo get_template_directory_uri() . "/imgs/pesax40.png"; ?>"
+            alt="PESA LOGO">
+            </a>
           </div>
           <div class="container-button">
             <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
@@ -60,4 +64,8 @@
       </div>
     </nav>
   </header>
+
+  <div class="pb-5">
+    <span></span>
+  </div>
    
