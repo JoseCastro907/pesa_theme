@@ -9,9 +9,9 @@
     </div>
 
 
-    <div class="row justify-content-center offset-1">
+    <div class="row justify-content-center offset-1 pb-3">
 
-                <div class="col-10">
+                <div class="col-10 pt-5">
                     <div class="row">
 
                     <?php
@@ -31,12 +31,13 @@
                             while( $the_query-> have_posts() ) : $the_query->the_post();
                         ?>
 
-                        <div class="col-sm">
-
-                        <img style="width: 100px;" src="<?php the_field('service_icon'); ?>" alt="instant">
-                        <p><?php the_title(); ?></p>
-                        <p><?php the_field('service_short_description'); ?></p>
-                        <p><a href="<?php the_permalink(); ?>">Read more...</a></p>
+                        <div class="col-sm pesa-service pb-2 pe-2 pt-2">
+                         <div class="box ps-3">
+                            <img class="pt-2" style="width: 100px;" src="<?php the_field('service_icon'); ?>" alt="instant">
+                            <p><?php the_title(); ?></p>
+                            <p><?php the_field('service_short_description'); ?></p>
+                         </div>
+                        <button class="btn btn-light mt-4"><a href="<?php the_permalink(); ?>">Read more...</a></button>
                         </div>
 
                         <?php endwhile;
