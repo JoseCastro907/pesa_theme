@@ -66,7 +66,7 @@
 
             </div>
                 <div class="btn d-flex justify-content-center">
-                    <button type="submit" class="btn btn-dark mb-2 ">Enviar</button>
+                    <button type="submit" class="btn btn-dark mb-2 ">Send</button>
                 </div>
 
 
