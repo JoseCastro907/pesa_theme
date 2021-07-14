@@ -304,8 +304,8 @@
     <div class="row justify-content-center text-center">
         <div class="col-md-10">
             <h1 class="frase-1 pt-2">
-                Un gran diseño nace de <br>
-                una historia aún mejor
+                A great design is begins with <br>
+                an even better story
             </h1>
             <h3 class="frase-2 pt-2">
                 Comencemos un proyecto juntos
