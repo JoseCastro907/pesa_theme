@@ -4,7 +4,7 @@
 <div class="offset-1">
     <div class="p-2">
         <div class="pt-5 display-3">
-            Contact
+            Contactos
         </div>
     </div>
 
@@ -63,16 +63,16 @@
             </div>
             <input type="text" class="form-control" id="mailuser" placeholder="e-mail@mail.com">
             <br>
-
+            
             </div>
                 <div class="btn d-flex justify-content-center">
                     <button type="submit" class="btn btn-dark mb-2 ">Enviar</button>
                 </div>
+            
 
 
 
-
-
+            
             </form>
         </div>
     </div>
