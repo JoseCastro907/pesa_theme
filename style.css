@@ -55,7 +55,7 @@ body{
 }
 
 .box{
-	background: white;
+	background: var(--color--acento-dark-background);
 	border-radius: 10px;
 	min-height: 226px;
 }

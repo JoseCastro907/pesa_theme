@@ -119,12 +119,12 @@
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">From:</h5>
+                                <h5 class="price-from">Starting at:</h5>
                                 <h5 class="price-cost">$700</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -153,12 +153,12 @@
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">Desde:</h5>
+                                <h5 class="price-from">Starting at:</h5>
                                 <h5 class="price-cost">$1200</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-web/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-web/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -187,12 +187,12 @@
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">From:</h5>
+                                <h5 class="price-from">Starting at:</h5>
                                 <h5 class="price-cost">$1500</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -221,12 +221,12 @@
                         </div>
                         <div class="col-12">
                             <div class="col d-flex">
-                                <h5 class="price-from">From:</h5>
+                                <h5 class="price-from">Starting at:</h5>
                                 <h5 class="price-cost">$2200</h5>
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
