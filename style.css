@@ -423,3 +423,25 @@ body{
         padding-left: 2px;
     }
 }
+
+.services_box{
+    width: 600px;
+    height: 450px;
+}
+
+.services_img{
+    width: 350px;
+    height: 250px;
+}
+
+@media only screen and (max-width:1200px) {
+    .services_box{
+        width: 100%;
+        height: auto;
+    }
+
+    .services_img{
+        width: 100%;
+        height: auto;
+    }
+}
