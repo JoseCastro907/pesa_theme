@@ -15,7 +15,7 @@
                         <div class="hero-paragraph">
                             <div class="align-middle h-100 mb-3">
                                 <h1>Un buen negocio incluye un buen producto digital y un buen precio.</h1>
-                                <button class="btn btn-light mt-4" style="font-weight: 600"> Saber mas</button>
+                                <button class="btn btn-light mt-4" style="font-weight: 600" aria-label="Justify"> Saber mas</button>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/   "> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/   "> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="#tienda"> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                 Productos Profesionales
             </h3>
             <div class="boton-contacto pt-5 pb-5 text-center">
-                <button class="btn btn-light pt-2 pb-2 " style="font-weight: 600" type="button">Saber mas</button>
+                <button class="btn btn-light pt-2 pb-2 " aria-label="Justify" style="font-weight: 600" type="button">Saber mas</button>
             </div>
         </div>
     </div>
@@ -343,7 +343,7 @@
         </div>
     </div>
     <div class="boton-contacto pt-5 pb-5 text-center">
-        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Ponte en
+        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" aria-label="Justify" id="get_in_touch">Ponte en
             contacto con nuestros
             expertos</button>
     </div>

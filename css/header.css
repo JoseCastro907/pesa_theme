@@ -1,13 +1,4 @@
-@import url(colors.css);
-
-
-@media (max-width: 767.98px) { 
-    .navbar{
-        padding-inline-start: 1rem;
-    }
- }
-
-
+/*@import url(colors.css);*/
 
 .navbar{
     background-color: var(--color-buttons-light);
@@ -24,16 +15,16 @@
     padding-inline-start: 0 !important;
     padding-bottom: 0.5rem;
     margin-bottom: 0rem;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
     width: 100%;
     justify-content: space-between;
 }
 
-    
+
 .navbar-top-style-list{
     width: 50%;
 }
-    
+
 
     .navbar-top-style-list a{
         color: var(--color--acento-guias);
@@ -58,7 +49,7 @@
 
 #bdNavbar{
     font-size: 1.4rem;
-    
+
 }
 
 

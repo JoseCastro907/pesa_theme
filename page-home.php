@@ -15,7 +15,7 @@
                         <div class="hero-paragraph">
                             <div class="align-middle h-100 mb-3">
                                 <h1>We are a company Powered by Technology and Driven by Talent.</h1>
-                                <button class="btn btn-light mt-4" style="font-weight: 600">Learn more</button>
+                                <button class="btn btn-light mt-4" style="font-weight: 600" aria-label="Justify">Learn more</button>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" aria-label="Justify" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-web/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-web/"> <button type="button" aria-label="Justify" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/"> <button type="button" aria-label="Justify" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">SHOW NOW</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" aria-label="Justify" class="btn btnContact">SHOW NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
             Based on many years of experience
             </h3>
             <div class="boton-contacto pt-5 pb-5 text-center">
-                <button class="btn btn-light pt-2 pb-2 " style="font-weight: 600" type="button">Saber mas</button>
+                <button class="btn btn-light pt-2 pb-2 " style="font-weight: 600" aria-label="Justify" type="button">Learn more</button>
             </div>
         </div>
     </div>
@@ -343,7 +343,7 @@
         </div>
     </div>
     <div class="boton-contacto pt-5 pb-5 text-center">
-        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" id="get_in_touch">Talk to our team</button>
+        <button class="btn btn-light pt-2 pb-2" style="font-weight: 600" type="button" aria-label="Justify" id="get_in_touch">Talk to our team</button>
     </div>
 </div>
 

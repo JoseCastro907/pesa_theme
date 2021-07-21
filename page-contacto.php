@@ -63,16 +63,16 @@
             </div>
             <input type="text" class="form-control" id="mailuser" placeholder="e-mail@mail.com">
             <br>
-            
+
             </div>
                 <div class="btn d-flex justify-content-center">
-                    <button type="submit" class="btn btn-dark mb-2 ">Enviar</button>
+                    <button type="submit" aria-label="Justify" class="btn btn-dark mb-2 ">Enviar</button>
                 </div>
-            
 
 
 
-            
+
+
             </form>
         </div>
     </div>

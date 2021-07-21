@@ -17,11 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 
-
-@import url(css/colors.css);
 @import url(css/header.css);
-@import url(css/queries.css);
-@import url(css/services.css);
 @import url(css/languages.css);
 @import url(css/font.css);
 @import url(css/about.css);
@@ -39,7 +35,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     --colorwhite2: #DEF2F1;
     --colorwhite1: #FEFFFF;
 
-    --color_background_white: #FEFFFF;
     --color--acento-background: #3AAFA9;
     --color--acento-dark-background: #17242A;
     --color--acento-guias: #2B7A78;
@@ -108,20 +103,7 @@ body{
 .carousel-control-prev:after {
     content: url("imgs/icons/left-arrow.png");
 }
-@media only screen and (max-width:480px) {
-    .img-fluid {
-        height: 35vh!important;
-    }
-    .carousel-control-next:after
-    {
-      content: url("imgs/icons/right-arrow32.png");
-      margin-right: 25%;
-    }
-    .carousel-control-prev:after
-    {
-      content: url("imgs/icons/left-arrow32.png");
-    }
-}
+
 
 .carousel-indicators .active{
     background-color: black !important;
@@ -140,7 +122,75 @@ body{
     font-size: 30px;
 }
 /************ paquetes ***************/
+.card-body{
+    width: 210px;
+    min-height: 250px;
+    min-width: none;
+    /* max-height: 210px; */
+}
 
+.card-price{
+    text-align: center;
+    background-color: var(--colorwhite1);
+    margin-bottom: 10%;
+    margin-top: 2%;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .30rem;
+}
+
+.price-title{
+    font-weight: 600;
+    color: var(--color--acento-background);
+    font-size: 1.5rem;
+    text-align: start;
+    margin-left: 5%;
+}
+
+.code-img{
+    width: 100%;
+    max-width: 150px;
+    /* margin-inline-start: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
+
+}
+
+.img-services{
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10%!important;
+    margin-top: 20%;
+}
+
+.price-from,.price-cost{
+    font-weight: 600;
+    color: var(--color--acento-background);
+    justify-content: space-evenly;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 5%;
+}
+.list-group{
+    list-style: none;
+    color: #2B7A77;
+    margin-top: 5%!important;
+    margin-bottom: 5%!important;
+    line-height: 2;
+    text-align: start;
+    margin-left: 5%;
+    font-family: pesa-Medium;
+}
+.btnContact{
+    margin: 10% 0% 10% 0%;
+    font-size: 24px!important;
+    font-weight: 600!important;
+    color: var(--colorwhite1)!important;
+    background-color:var(--coloraqua)!important;
+    padding-left: 35px!important;
+    padding-right: 35px!important;
+}
 /******* frase *******/
 .fraseBanner{
     margin-bottom: 25px;
@@ -154,11 +204,7 @@ body{
     color: var(--coloraquafuerte);
     font-weight: 700;
 }
-@media only screen and (max-width:480px) {
-   .frase-1{
-    font-size: calc(1.375rem + 1.5vw);
-   }
-}
+
 
 /******* contactanos *******/
 
@@ -180,32 +226,6 @@ body{
 .comment-receive,.comment-contact{
     font-size: 1.5rem;
 }
-@media only screen and (max-width:480px) {
-    .contacta, .Recibe{
-        padding: 5px;
-    }
-    .recibe-text, .comment-text{
-        margin: 5%;
-    }
-    .comment-receive,.comment-contact{
-        font-size: 1rem;
-    }
-    .cantact1{
-        border: none;
-    }
-    .principal-contact{
-        flex-direction: column;
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 1980px) {
-    .comment-contact{
-        padding-right: 15px;
-    }
-    .comment-receive{
-        padding-left: 2px;
-    }
-}
-
 .btn{
     font-size: 24px;
     font-weight: 600;
@@ -231,64 +251,6 @@ body{
 }
 .text-footer2{
     margin-top: -10px;
-}
-@media only screen and (max-width:320px) {
-    .acerca-de{
-        font-size: 0.8rem !important;
-    }
-}
-@media only screen and (max-width:480px) {
-    .wpb_column{
-        width: 33%;
-        margin: 5px;
-    }
-    .acerca-de{
-        font-size: 0.9rem;
-    }
-    .footer-text{
-        font-size: 0.9rem;
-        padding-top: 2.5rem;
-    }
-    .isotipo{
-        flex: auto;
-        display: none;
-     }
-
-}
-@media only screen and (min-width: 768px) and (max-width: 1024px){
-    .col-lg-2 {
-        flex: 0 0 auto;
-        width: 33% !important;
-    }
-    .wpb_column{
-        margin-left: 20px;
-    }
-    .cont1,.cont2{
-        padding-right: 20px;
-    }
-}
-@media only screen and (max-width:370px) {
-    .footer-text{
-        font-size: 0.7rem;
-    }
-    .btn-floating{
-        padding-left: 0px !important;
-    }
-    .facebook{
-        content:url("imgs/icons/facebook_white25.png");
-    }
-    .instagram{
-        content:url("imgs/icons/instagram25.png");
-    }
-    .pinterest{
-        content:url("imgs/icons/pinterest_white25.png");
-    }
-    .twitter{
-        content:url("imgs/icons/twitter_white25.png");
-    }
-    .linkedin{
-        content:url("imgs/icons/linkedin_white25.png");
-    }
 }
 
 /******* hero *******/
@@ -327,6 +289,132 @@ body{
 
 }
 
+/*----------------Media Queries--------------*/
+@media only screen and (max-width:320px) {
+    .acerca-de{
+        font-size: 0.8rem !important;
+    }
+}
+@media only screen and (max-width:480px) {
+    .card-price{
+        width:45%!important;
+    }
+    .btnContact{
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+        font-size: 1.2rem!important;
+    }
+    .list-group{
+        white-space: nowrap;
+        text-overflow: ellipsis!important;
+        overflow: hidden!important;
+    }
+    .img-about{
+        width:75%
+    }
+    .wpb_column{
+        width: 33%;
+        margin: 5px;
+    }
+    .acerca-de{
+        font-size: 0.9rem;
+    }
+    .footer-text{
+        font-size: 0.9rem;
+        padding-top: 2.5rem;
+    }
+    .isotipo{
+        flex: auto;
+        display: none;
+     }
+     .contacta, .Recibe{
+        padding: 5px;
+    }
+    .recibe-text, .comment-text{
+        margin: 5%;
+    }
+    .comment-receive,.comment-contact{
+        font-size: 1rem;
+    }
+    .cantact1{
+        border: none;
+    }
+    .principal-contact{
+        flex-direction: column;
+    }
+    .img-fluid {
+        height: 35vh!important;
+    }
+    .carousel-control-next:after
+    {
+      content: url("imgs/icons/right-arrow32.png");
+      margin-right: 25%;
+    }
+    .carousel-control-prev:after
+    {
+      content: url("imgs/icons/left-arrow32.png");
+    }
+    .frase-1{
+        font-size: calc(1.375rem + 1.5vw);
+       }
 
+}
+@media (max-width: 1200px) {
+    .navbar-top-style-list {
+      display: none; } }
 
+  @media (min-width: 1200px) {
+    .container-button {
+      display: none; }
+    #navtop {
+      display: inline-flex !important; } }
 
+@media (max-width: 767.98px) {
+    .navbar{
+        padding-inline-start: 1rem;
+    }
+ }
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 33% !important;
+    }
+    .wpb_column{
+        margin-left: 20px;
+    }
+    .cont1,.cont2{
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width:370px) {
+    .footer-text{
+        font-size: 0.7rem;
+    }
+    .btn-floating{
+        padding-left: 0px !important;
+    }
+    .facebook{
+        content:url("imgs/icons/facebook_white25.png");
+    }
+    .instagram{
+        content:url("imgs/icons/instagram25.png");
+    }
+    .pinterest{
+        content:url("imgs/icons/pinterest_white25.png");
+    }
+    .twitter{
+        content:url("imgs/icons/twitter_white25.png");
+    }
+    .linkedin{
+        content:url("imgs/icons/linkedin_white25.png");
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+    .comment-contact{
+        padding-right: 15px;
+    }
+    .comment-receive{
+        padding-left: 2px;
+    }
+}

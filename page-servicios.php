@@ -3,7 +3,7 @@
 
 <div class="">
     <div class="p-2">
-       
+
     </div>
 
 
@@ -16,7 +16,7 @@
                     <div class="row">
 
                     <?php
-                        //get services preracion de consulta 
+                        //get services preracion de consulta
                         $args = array(
                             'post_type' => 'page',
                             'posts_per_page' => -1,
@@ -38,7 +38,7 @@
                             <p><?php the_title(); ?></p>
                             <p><?php the_field('service_short_description'); ?></p>
                          </div>
-                         <button class="btn btn-light mt-4"><a class="btn_a" href="<?php the_permalink(); ?>">Ver producto</a></button>
+                         <button class="btn btn-light mt-4" aria-label="Justify"><a class="btn_a" href="<?php the_permalink(); ?>">Ver producto</a></button>
                         </div>
 
                         <?php endwhile;
@@ -47,12 +47,12 @@
                         endif; ?>
 
                 </div>
-                
+
             </div>
         </div>
 
-                       
 
 
-       
+
+
 <?php get_footer(); ?>

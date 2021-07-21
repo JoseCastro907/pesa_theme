@@ -13,17 +13,3 @@
 .about-member{
     color: var(--colorwhite2);
 }
-
-
-
-@media only screen and (max-width:480px) {
-
-    .img-about{
-        width: 75%;
-
-    }
-
-
-}
-
-

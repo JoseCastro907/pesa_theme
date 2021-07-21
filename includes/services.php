@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/marketing-social-media/"> <button type="button" class="btn btnContact" aria-label="Justify">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-aplicacion-movil/"> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/   "> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="https://dev-tm7200.pantheonsite.io/product/desarrollo-tienda-online/   "> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#tienda"> <button type="button" class="btn btnContact">Comprar ahora</button></a>
+                            <a href="#tienda"> <button type="button" aria-label="Justify" class="btn btnContact">Comprar ahora</button></a>
                         </div>
                     </div>
                 </div>
