@@ -52,7 +52,16 @@ body{
 .box{
 	background: white;
 	border-radius: 10px;
-	min-height: 226px;
+	min-height: 296px;
+}
+
+.service_box{
+    background: var(--color_background_white);
+    border-radius: 6px;
+}
+
+.service_box > div > span {
+    color: var(--color--acento-dark-background);
 }
 
 .btn_a{

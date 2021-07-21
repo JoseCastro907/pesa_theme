@@ -8,12 +8,11 @@
 
 
     <div class="row justify-content-center pb-3">
-    <div class="pt-5 display-3 offset-1 service_title">
+    <div class="pt-5 display-3 col-10 offset-1 service_title">
             PESA DIGITAL MARKETING SERVICES
         </div>
-
-                <div class="col-10 pt-5">
-                    <div class="row">
+        <div class="col-10 pt-5">
+                <div class="row d-flex justify-content-around">
 
                     <?php
                         //get services preracion de consulta
@@ -32,25 +31,27 @@
                             while( $the_query-> have_posts() ) : $the_query->the_post();
                         ?>
 
-                        <div class="col-sm pesa-service pb-2 pe-2 pt-4">
-                         <div class="box ps-3">
-                            <img class="pt-2" style="width: 100px;" src="<?php the_field('service_icon'); ?>" alt="instant">
-                            <p><?php the_title(); ?></p>
+                    <div class="col-sm-10 col-md-5 pesa-service pb-4  pe-2 pt-4" href="<?php the_permalink(); ?>">
+                    <a class="btn_a" href="<?php the_permalink(); ?>">
+                        <div class="box p-3">
+                            <div class="d-flex justify-content-center" ><img class="pt-2" style="width: 100px;" src="<?php the_field('service_icon'); ?>" alt="instant"></div>
+                            
+                            <p class="pt-2 fw-bold fs-2" ><?php the_title(); ?></p>
                             <p><?php the_field('service_short_description'); ?></p>
-                         </div>
-                        <button class="btn btn-light mt-4" aria-label="Justify"><a class="btn_a" href="<?php the_permalink(); ?>">Read more...</a></button>
+                            </div>
+                            <button class="btn btn-light mt-4" aria-label="Justify"><a class="btn_a" href="<?php the_permalink(); ?>">Ver producto</a></button>
                         </div>
 
                         <?php endwhile;
                         else :
                             echo "<p>no content to show here</p>";
                         endif; ?>
+                    </a>
+                    </div>
 
                 </div>
-
             </div>
-        </div>
-
+                
 
 
 

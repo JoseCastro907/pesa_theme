@@ -1,5 +1,5 @@
 <?php
-/*Template Name: Pack */ 
+/*Template Name: PESA Brand */ 
 get_header(); ?>
 
 
@@ -13,10 +13,10 @@ get_header(); ?>
     <div class="row">
         <div class="col-11 offset-1">
         <div class="display-5 service_title">
-        PESA: Servicio     
+        Pesa Digital Marketing  <span class="fw-bold" >Our goal</span>  
         </div>
         
-            <p class="wh-border display-1"><?php the_title(); ?></p>
+            <p class="wh-border display-3"><?php the_title(); ?></p>
         </div>
     </div>
 
