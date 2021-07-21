@@ -34,7 +34,7 @@
                     <div class="col-sm-10 col-md-5 pesa-service pb-4  pe-2 pt-4" href="<?php the_permalink(); ?>">
                     <a class="btn_a" href="<?php the_permalink(); ?>">
                         <div class="box p-3">
-                            <div class="d-flex justify-content-center" ><img class="pt-2" style="width: 100px;" src="<?php the_field('service_icon'); ?>" alt="instant"></div>
+                            <div class="d-flex justify-content-center" ><img class="pt-2" style="width: 100%;" src="<?php the_field('service_icon'); ?>" alt="instant"></div>
                             
                             <p class="pt-2 fw-bold fs-2" ><?php the_title(); ?></p>
                             <p><?php the_field('service_short_description'); ?></p>
