@@ -8,12 +8,12 @@
 
 
     <div class="row justify-content-center pb-3">
-    <div class="pt-5 display-3 offset-1 service_title">
+    <div class="pt-5 display-3 col-10 offset-1 service_title">
             SERVICIOS DE PESA MARKETING DIGITAL
         </div>
 
-                <div class="col-10 pt-5">
-                    <div class="row">
+            <div class="col-10 pt-5">
+                <div class="row d-flex justify-content-around">
 
                     <?php
                         //get services preracion de consulta
@@ -37,19 +37,19 @@
                             <img class="pt-2 services_img" src="<?php the_field('service_icon'); ?>" alt="instant">
                             <p><?php the_title(); ?></p>
                             <p><?php the_field('service_short_description'); ?></p>
-                         </div>
-                         <button class="btn btn-light mt-4" aria-label="Justify"><a class="btn_a" href="<?php the_permalink(); ?>">Ver producto</a></button>
+                            </div>
+                            <button class="btn btn-light mt-4" aria-label="Justify"><a class="btn_a" href="<?php the_permalink(); ?>">Ver producto</a></button>
                         </div>
 
                         <?php endwhile;
                         else :
                             echo "<p>no content to show here</p>";
                         endif; ?>
+                    </a>
+                    </div>
 
                 </div>
-
             </div>
-        </div>
 
 
 

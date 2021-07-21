@@ -97,13 +97,13 @@
 
                     <div class="row">
 
-                        <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri() . "/imgs/comunicacion.png"; ?>"
+                    <div class="col-12">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri() . "/imgs/marketing.png"; ?>"
                                 alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Social media</h5>
+                            <h5 class="price-title">Digital Marketing</h5>
                         </div>
                         <div class="col-12">
 
@@ -133,12 +133,12 @@
 
                     <div class="row">
 
-                        <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri()."/imgs/comision.png"; ?>" alt="servicio">
+                    <div class="col-12">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri()."/imgs/grafico.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Web development</h5>
+                            <h5 class="price-title">Graphic Design</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
@@ -168,11 +168,11 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri() . "/imgs/metas.png"; ?>" alt="servicio">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri() . "/imgs/phone.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">E-commerce Store</h5>
+                            <h5 class="price-title">Mobile App</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
@@ -202,11 +202,11 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri() . "/imgs/conexion.png"; ?>" alt="servicio">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri() . "/imgs/web.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Mobile Apps</h5>
+                            <h5 class="price-title">Web Design</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">

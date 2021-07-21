@@ -52,7 +52,16 @@ body{
 .box{
 	background: white;
 	border-radius: 10px;
-	min-height: 226px;
+	min-height: 296px;
+}
+
+.service_box{
+    background: var(--color_background_white);
+    border-radius: 6px;
+}
+
+.service_box > div > span {
+    color: var(--color--acento-dark-background);
 }
 
 .btn_a{
@@ -154,14 +163,6 @@ body{
     margin-top: 1rem;
     margin-bottom: 1rem; */
 
-}
-
-.img-services{
-    max-width: 100px;
-    min-width: 100px;
-    max-height: 100px;
-    margin-bottom: 10%!important;
-    margin-top: 20%;
 }
 
 .price-from,.price-cost{
@@ -439,4 +440,3 @@ body{
         height: auto;
     }
 }
-

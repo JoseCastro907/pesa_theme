@@ -98,12 +98,12 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri() . "/imgs/comunicacion.png"; ?>"
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri() . "/imgs/marketing.png"; ?>"
                                 alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Marketing Redes</h5>
+                            <h5 class="price-title">Marketing en Redes</h5>
                         </div>
                         <div class="col-12">
 
@@ -134,11 +134,11 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri()."/imgs/comision.png"; ?>" alt="servicio">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri()."/imgs/grafico.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Aplicaciones Web</h5>
+                            <h5 class="price-title">Diseño Gráfico</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
@@ -168,11 +168,11 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri() . "/imgs/metas.png"; ?>" alt="servicio">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri() . "/imgs/phone.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Tienda Virtual</h5>
+                            <h5 class="price-title">Applicación Móvil</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">
@@ -202,11 +202,11 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <img class="img-services"
-                                src="<?php echo get_template_directory_uri() . "/imgs/conexion.png"; ?>" alt="servicio">
+                            <img class="w-100 p-3"
+                                src="<?php echo get_template_directory_uri() . "/imgs/web.png"; ?>" alt="servicio">
                         </div>
                         <div class="col-12">
-                            <h5 class="price-title">Soluciones Digitales</h5>
+                            <h5 class="price-title">Páginas Webs</h5>
                         </div>
                         <div class="col-12">
                             <ul class="list-group">

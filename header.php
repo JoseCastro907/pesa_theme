@@ -22,7 +22,7 @@
             </a>
           </div>
           <div class="container-button">
-            <button class="btn hamburguer" type="button"  aria-label="true" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
+            <button class="btn hamb" type="button"  aria-label="true" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#17242A" class="bi bi-list" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
             </button>
           </div>
