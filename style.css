@@ -356,8 +356,7 @@ body{
     }
     .frase-1{
         font-size: calc(1.375rem + 1.5vw);
-       }
-
+    }
 }
 @media (max-width: 1200px) {
     .navbar-top-style-list {
@@ -418,3 +417,26 @@ body{
         padding-left: 2px;
     }
 }
+
+.services_box{
+    width: 600px;
+    height: 450px;
+}
+
+.services_img{
+    width: 350px;
+    height: 250px;
+}
+
+@media only screen and (max-width:1440px) {
+    .services_box{
+        width: 100%;
+        height: auto;
+    }
+
+    .services_img{
+        width: 100%;
+        height: auto;
+    }
+}
+

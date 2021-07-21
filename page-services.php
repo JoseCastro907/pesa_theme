@@ -33,8 +33,8 @@
                         ?>
 
                         <div class="col-sm pesa-service pb-2 pe-2 pt-4">
-                         <div class="box ps-3">
-                            <img class="pt-2" style="width: 100px;" src="<?php the_field('service_icon'); ?>" alt="instant">
+                         <div class="box ps-3 services_box">
+                            <img class="pt-2 services_img" src="<?php the_field('service_icon'); ?>" alt="instant">
                             <p><?php the_title(); ?></p>
                             <p><?php the_field('service_short_description'); ?></p>
                          </div>
