@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=4, user-scalable=yes">
+    <meta name="description" content="Empresa de Marketing Digital">
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>
@@ -22,7 +23,7 @@
             </a>
           </div>
           <div class="container-button">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
+            <button class="btn hamb" type="button"  aria-label="true" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-expanded="false">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#17242A" class="bi bi-list" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
             </button>
           </div>
@@ -43,7 +44,7 @@
                             ?>
 
 
-                                
+
           <!-- Menu principal -->
           <?php
                             wp_nav_menu( array(
@@ -59,8 +60,8 @@
                       ?>
 
 
-                
-            
+
+
       </div>
     </nav>
   </header>
@@ -68,4 +69,4 @@
   <div class="pb-5">
     <span></span>
   </div>
-   
+

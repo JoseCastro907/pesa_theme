@@ -165,10 +165,6 @@ body{
 
 }
 
-.img-services{
-    
-}
-
 .price-from,.price-cost{
     font-weight: 600;
     color: var(--color--acento-background);
@@ -366,8 +362,7 @@ body{
     }
     .frase-1{
         font-size: calc(1.375rem + 1.5vw);
-       }
-
+    }
 }
 @media (max-width: 1200px) {
     .navbar-top-style-list {
@@ -439,7 +434,7 @@ body{
     height: 250px;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1440px) {
     .services_box{
         width: 100%;
         height: auto;

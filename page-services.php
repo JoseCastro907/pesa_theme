@@ -31,12 +31,10 @@
                             while( $the_query-> have_posts() ) : $the_query->the_post();
                         ?>
 
-                    <div class="col-sm-10 col-md-5 pesa-service pb-4  pe-2 pt-4" href="<?php the_permalink(); ?>">
-                    <a class="btn_a" href="<?php the_permalink(); ?>">
-                        <div class="box p-3 services_box">
-                            <div class="d-flex justify-content-center" ><img class="pt-2 services_img" style="width: 100%;" src="<?php the_field('service_icon'); ?>" alt="instant"></div>
-                            
-                            <p class="pt-2 fw-bold fs-2" ><?php the_title(); ?></p>
+                        <div class="col-sm pesa-service pb-2 pe-2 pt-4">
+                         <div class="box ps-3 services_box">
+                            <img class="pt-2 services_img" src="<?php the_field('service_icon'); ?>" alt="instant">
+                            <p><?php the_title(); ?></p>
                             <p><?php the_field('service_short_description'); ?></p>
                             </div>
                             <button class="btn btn-light mt-4" aria-label="Justify"><a class="btn_a" href="<?php the_permalink(); ?>">Ver producto</a></button>
@@ -51,7 +49,7 @@
 
                 </div>
             </div>
-                
+
 
 
 
