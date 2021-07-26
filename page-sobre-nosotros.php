@@ -1,9 +1,35 @@
 <?php get_header(); ?>
 
 
+<div class="container-fluid">
+    <div class="w-100 m-0 d-flex justify-content-center pt-4">
+    <img class="img-about" src="<?php echo get_template_directory_uri() . "/imgs/alto.png"; ?>" alt="servicio" >
+    </div>
+    <div class="row w-100 m-0 pt-3 pb-4">
+        <div class="offset-1 col-10">
+            <h1 class="display-1 fw-bold">Construimos soluciones</h1>
+            <p class="fs-4 about-member fw-bold">Pesa Marketing Digital es una empresa de desarrollo de soluciones digitales que le ofrece paquetes de todo tipo desde marketing digital hasta diseño grafico y desarrollo de software. 
+            Nos especializamos en estudiar la necesidad del cliente y ofrecer una solución dedicada y competitiva, siempre atendiendo el problema del cliente para ofrecer ese producto que tanto anda buscando.
+            </p>
+        </div>
+        
+    </div>
+    <div class="row w-100 m-0 pt-3">
+        <div class="offset-1 col-10 col-md-5">
+            <h2 class="display-3">Vision</h2>
+            <p class="fs-4 about-member fw-bold">Crear un legado de servicios profesionales y reconocidos por nuestro clientes que marquen un memoria en nuestros clientes.</p>
+        </div>
+        <div class="offset-1 col-10 col-md-5">
+            <h2 class="display-3">Mision</h2>
+            <p class="fs-4 about-member fw-bold">Dedicarse exclusivamente al cliente y solucionar su necesidad mediante una propuesta tecnológica y competitiva en el mercado.</p>
+        </div>
+    </div>
+</div>
+
+
 <div class="offset-1 pt-5">
     <div class="p-2">
-        <div class="pt-5 display-1">
+        <div class="pt-5 display-2">
             Equipo de Desarrollo
         </div>
     </div>

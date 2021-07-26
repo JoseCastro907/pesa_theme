@@ -36,7 +36,5 @@ get_header(); ?>
 
    <?php get_footer(); ?>
 
-
-       Pesa Digital Marketing  <span class="fw-bold" >Our goal</span>  
     
 

@@ -294,6 +294,11 @@ body{
 
 }
 
+.about-img{
+    width: 100%;
+    max-width: 200px;
+}
+
 /*----------------Media Queries--------------*/
 @media only screen and (max-width:320px) {
     .acerca-de{

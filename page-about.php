@@ -1,9 +1,34 @@
 <?php get_header(); ?>
 
 
+<div class="container-fluid">
+    <div class="w-100 m-0 d-flex justify-content-center pt-4">
+    <img class="img-about" src="<?php echo get_template_directory_uri() . "/imgs/alto.png"; ?>" alt="servicio" >
+    </div>
+    <div class="row w-100 m-0 pt-3 pb-4">
+        <div class="offset-1 col-10">
+            <h1 class="display-1 fw-bold">We build solutions</h1>
+            <p class="fs-4 about-member fw-bold">Dedicate exclusively to the client and solve their need through a technological and competitive proposal in the market.
+            </p>
+        </div>
+        
+    </div>
+    <div class="row w-100 m-0 pt-3">
+        <div class="offset-1 col-10 col-md-5">
+            <h2 class="display-3">Vision</h2>
+            <p class="fs-4 about-member fw-bold">Create a legacy of professional services recognized by our clients that mark a memory in our clients.</p>
+        </div>
+        <div class="offset-1 col-10 col-md-5">
+            <h2 class="display-3">Mision</h2>
+            <p class="fs-4 about-member fw-bold">Dedicate exclusively to the client and solve their need through a technological and competitive proposal in the market.</p>
+        </div>
+    </div>
+</div>
+
+
 <div class="offset-1 pt-5">
     <div class="p-2">
-        <div class="pt-5 display-1">
+        <div class="pt-5 display-2">
             OUR TEAM
         </div>
     </div>
