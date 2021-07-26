@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <div class="container-fluid">
     <div class="w-100 m-0 d-flex justify-content-center pt-4">
     <img class="img-about" src="<?php echo get_template_directory_uri() . "/imgs/alto.png"; ?>" alt="servicio" >
